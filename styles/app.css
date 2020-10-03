@@ -1,0 +1,65 @@
+/* FlexBox */
+
+*{
+    margin: 0;
+    padding: 0; 
+ }
+
+.container-fluid{
+    border-radius: 2%;
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+.containerData{
+    /* background-color: rgb(211, 144, 144);*/
+    margin-bottom: .5rem;
+    border-radius: 4%;
+    width: 95%;
+}*/
+
+.container:hover
+{
+    background-color: rgb(80, 17, 17);
+}
+
+/*#section-list{
+    border-radius: 2%;
+    background-color: rgba(156, 194, 231, 0.301);
+}*/
+
+
+.section{
+    flex: 2;
+}
+
+#btnImportant{
+    font-size:20px;
+    color: blue;
+    cursor: pointer;
+}
+
+#section-Form i{
+    text-align: right;
+}
+
+#section-Form .active{
+    color: red !important;
+}
+
+.control{
+    display: block;
+}
+
+#btnSave{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+#section-list span{
+    margin-left: 2rem;
+}
